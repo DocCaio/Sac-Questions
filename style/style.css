@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+@import url("/style/abstract/_variables.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var("Work Sans", sans-serif);
+  min-height: 100vh;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.bi-moon {
+  display: none;
+}
+
+/*Drk theme*/
+.dark,
+.dark header {
+  background-color: #42446E;
+  color: #fff;
+}
+
+.dark .bar {
+  background-color: white;
+}
+
+.bar {
+  background-color: black;
+}
+
+.dark .under {
+  color: #000;
+}
+
+.dark a {
+  color: #fff;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+html, body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.hero {
+  background: url("/assets/images/background-pattern-mobile.svg") no-repeat center center var(hsl(292, 42%, 14%));
+  height: 40vh;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
