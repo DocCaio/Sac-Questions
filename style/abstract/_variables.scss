@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
 
-$fonte:'Work Sans', sans-serif;
-// Cores
-$White: hsl(0, 0%, 100%);;
-$Light-pink: hsl(275, 100%, 97%);
-$Grayish-purple: hsl(292, 16%, 49%);
-$Dark-purple: hsl(292, 42%, 14%);
-
+:root {
+    $main-font: "Work Sans", sans-serif;
+  
+    /* ## Colors */
+    /* --cs-white: hsl(0, 0%, 100%);
+    --cs-light-pink: hsl(275, 100%, 97%);
+    --cs-grayish-purple: hsl(292, 16%, 49%);
+    --cs-dark-purple: hsl(292, 42%, 14%);
+    --cs-cyan: hsl(280, 62%, 51%); */
+  
+    $cs-white: 0, 0%, 100%;
+    $light-pink: 275, 100%, 97%;
+    $grayish-purple: 292, 16%, 49%;
+    $dark-purple: 292, 42%, 14%;
+    $cyan: 280, 62%, 51%;
+  }
 
 
 
