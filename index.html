@@ -7,58 +7,82 @@
     <link rel="stylesheet" href="/style/style.css"/>
 </head>
 <body>
-    <div class="main">
-
-        <div class="bg-top"></div>
-
-        <div class="container">
-            <div class="header">
-                <img src="./assets/images/icon-star.svg" alt="">
+  <main>
+    <div class="component-wrapper">
+      <div class="component-desc-wrap">
+        <div class="logo-wrap">
+          <img src="./assets/images/icon-star.svg" alt="Purple star" class="logo-img">
         </div>
-
-        <div class="accordion">
-            <div class="questionDiv">
-              <h3 class="question">Como uma escola online pode me ajudar?</h3>
-              <img class="plus hidden" src="./assets/images/icon-plus.svg" alt="plus">
-              <img class="minus" src="./assets/images/icon-minus.svg" alt="minus">
-            </div>
-            <p class="answer">Alura é uma escola online onde podermos mergulhe em conteúdo com a maior 
-                comunidade de tecnologia do país e aprender muitas coissa novas.</p>
-          </div>
-          <hr class="hr">
-
-          <div class="accordion">
-            <div class="questionDiv">
-              <h3 class="question">Posso usar o que aprendi na Alura para fazer meus portifilio ?</h3>
-              <img class="plus" src="./assets/images/icon-plus.svg" alt="plus">
-              <img class="minus hidden" src="./assets/images/icon-minus.svg" alt="minus">
-            </div>
-            <p class="answer hidden">Sim, você pode usar projetos concluídos ou modoficados em seu portfólio. É um
-                excelente
-                maneira de mostrar suas habilidades para potenciais empregadores!</p>
-          </div>
-          <hr class="hr">
-
-          <div class="accordion">
-            <div class="questionDiv">
-              <h3 class="question">Como eu consigo ajuda caso eu tenha duvidas ?</h3>
-              <img class="plus" src="./assets/images/icon-plus.svg" alt="plus">
-              <img class="minus hidden" src="./assets/images/icon-minus.svg" alt="minus">
-            </div>
-            <p class="answer hidden">O melhor lugar para obter ajuda é na comunidade do  Discord da Alura. Há varios umcanis 
-                de ajuda onde você pode fazer perguntas e buscar apoio de outros membros da comunidade.</p>
-          </div>
-        
-        </div>
-
+        <h1>FAQs</h1>
+      </div>
+      <ul class="faqs-wrap">
+        <li class="faq-el" aria-labelledby="faq-el1">
+          <label class="faq-label" for="faq1">
+            <h2 class="faq-question">Como uma escola online pode me ajudar?</h2>
+          </label>
+          <input
+            checked
+            class="faq-control"
+            type="checkbox"
+            name="faq1"
+            id="faq1"
+            aria-controls="faq-el1"
+          >
+          <p class="faq-answer">Alura é uma escola online onde podermos mergulhe em conteúdo com a maior 
+            comunidade de tecnologia do país e aprender muitas coissa novas</p>
+        </li>
+        <li class="faq-el" aria-labelledby="faq-el2">
+          <label class="faq-label" for="faq2">
+            <h2 class="faq-question">>Posso usar o que aprendi na Alura para fazer meus portifilio ?</h2>
+          </label>
+           <input
+            class="faq-control"
+            type="checkbox"
+            name="faq2"
+            id="faq2"
+            aria-controls="faq-el2"
+          >
+          <p class="faq-answer">Sim, você pode usar projetos concluídos ou modoficados em seu portfólio. É um
+            excelente
+            maneira de mostrar suas habilidades para potenciais empregadores!</p>
+        </li>
+        <li class="faq-el" aria-labelledby="faq-el3">
+          <label class="faq-label" for="faq3">
+            <h2 class="faq-question">>Como eu consigo ajuda caso eu tenha duvidas ?</h2>
+          </label>
+          <input
+            class="faq-control"
+            type="checkbox"
+            name="faq3"
+            id="faq3"
+            aria-controls="faq-el3"
+          >
+          <p class="faq-answer">O melhor lugar para obter ajuda é na comunidade do  Discord da Alura. Há varios umcanis 
+            de ajuda onde você pode fazer perguntas e buscar apoio de outros membros da comunidade.</p>
+        </li>
+        <li class="faq-el" aria-labelledby="faq-el4">
+          <label class="faq-label" for="faq4">
+            <h2 class="faq-question">Onde eu consigo desafios para treinar</h2>
+          </label>
+          <input
+            class="faq-control"
+            type="checkbox"
+            name="faq4"
+            id="faq4"
+            aria-controls="faq-el4"
+          >
+          <p class="faq-answer">Existem varios lugares como front mentor , alura challenger,etc</p>
+        </li>
+      </ul>
     </div>
+  </main>
 
-    <footer class="footer">
-        <p class="attribution">
-          Trabalho pessoal <a href="#" target="_blank">Aprendi online</a>.
-          Feito por <a href="#">Caio</a>.
-        </p>
-      </footer>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#/">Sebastian</a>.
+    </div>
+  </footer>
     </body>
     <script src="/app/script.jsx"></script>
     
