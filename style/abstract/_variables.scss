@@ -20,59 +20,6 @@
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
-
-body {
-    font-family: var($fonte);
-    min-height: 100vh;
-
-}
 
 
-.bi {
-    font-size: 1.3rem;
-    cursor: pointer;
-}
 
-.bi-moon {
-    display: none;
-}
-
-/*Drk theme*/
-
-.dark,
-.dark header  {
-    background-color: #42446E;
-    color:#fff;
-}
-
-.dark .bar {
-    background-color: white;
-}
-
-.bar {
-    background-color: black;  
-}
-
-
-.dark .under {
-    color:#000;  
-}
-
-.dark a {
-    color:#fff; 
-}
-
-
-.dark .bi-sun {
-    display: none;
-}
-
-.dark .bi-moon {
-    display: block;
-}
