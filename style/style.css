@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
-@import url("/style/abstract/_variables.scss");
-:root {
-  /* ## Colors */
-  /* --cs-white: hsl(0, 0%, 100%);
-  --cs-light-pink: hsl(275, 100%, 97%);
-  --cs-grayish-purple: hsl(292, 16%, 49%);
-  --cs-dark-purple: hsl(292, 42%, 14%);
-  --cs-cyan: hsl(280, 62%, 51%); */
-}
+
+
 
 /* Global, reset & typography */
 * {
@@ -17,6 +10,7 @@
   font-size: 16px;
   font-weight: 400;
 }
+
 
 body {
   background-image: url("/assets/images/background-pattern-desktop.svg");
